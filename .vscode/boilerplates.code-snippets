@@ -1,0 +1,14 @@
+{
+  "init": {
+    "prefix": "init",
+    "body": [
+      "import { readFileSync } from 'fs';",
+      "",
+      "const file = readFileSync('./day$1.input', 'utf-8');",
+      "const input = file.split('\\n');$2",
+      "",
+      "setInterval(() => null, 1e6);",
+      ""
+    ]
+  }
+}
